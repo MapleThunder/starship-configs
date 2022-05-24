@@ -3,18 +3,18 @@ format = """
 $username\
 [](fg:#9A348E bg:#DA627D)\
 $directory\
-[](fg:#DA627D bg:#FCA17D)\
+[](fg:#DA627D bg:#33658A)\
 $git_branch\
 $git_status\
-[](fg:#FCA17D bg:#86BBD8)\
+[](fg:#33658A bg:#519DC7)\
 $nodejs\
 $rust\
-[](fg:#86BBD8)\
+[](fg:#519DC7)\
 
 $line_break\
-[](#33658A)\
+[](#b80000)\
 $time\
-[ ](fg:#33658A)\
+[ ](fg:#b80000)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -48,29 +48,29 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D"
-format = '[[ $symbol $branch ](bg:#FCA17D)]($style)'
+style = "bg:#33658A"
+format = '[[ $symbol $branch ](bg:#33658A)]($style)'
 
 [git_status]
-style = "bg:#FCA17D"
-format = '[[($all_status$ahead_behind )](bg:#FCA17D)]($style)'
+style = "bg:#33658A"
+format = '[[($all_status$ahead_behind )](bg:#33658A)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "bg:#519DC7"
+format = '[[ $symbol ($version) ](bg:#519DC7)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#86BBD8"
-format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+style = "bg:#519DC7"
+format = '[[ $symbol ($version) ](bg:#519DC7)]($style)'
 
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#33658A"
-format = '[[ ♥ $time ](bg:#33658A)]($style)'
+style = "bg:#b80000"
+format = '[[ ♥ $time ](bg:#b80000)]($style)'
 
 [line_break]
 disabled = false
