@@ -1,5 +1,7 @@
 format = """
-[](#DA627D)\
+[](#9A348E)\
+$username\
+[](fg:#9A348E bg:#DA627D)\
 $directory\
 [](fg:#DA627D bg:#FCA17D)\
 $git_branch\
@@ -7,9 +9,8 @@ $git_status\
 [](fg:#FCA17D bg:#86BBD8)\
 $nodejs\
 $rust\
-[](fg:#86BBD8 bg:#9A348E)\
-$username\
-[](fg:#9A348E)\
+[](fg:#86BBD8)\
+
 $line_break\
 [](#33658A)\
 $time\
